@@ -1,0 +1,2752 @@
+/*Responsive design*/
+
+/* Wide */
+
+	@media screen and (max-width: 1680px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+			}
+
+		/* BG */
+
+			@-moz-keyframes bg {
+				0% {
+					-moz-transform: translate3d(0,0,0);
+					-webkit-transform: translate3d(0,0,0);
+					-ms-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+
+				100% {
+					-moz-transform: translate3d(-1500px,0,0);
+					-webkit-transform: translate3d(-1500px,0,0);
+					-ms-transform: translate3d(-1500px,0,0);
+					transform: translate3d(-1500px,0,0);
+				}
+
+			}
+
+		@-webkit-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-1500px,0,0);
+				-webkit-transform: translate3d(-1500px,0,0);
+				-ms-transform: translate3d(-1500px,0,0);
+				transform: translate3d(-1500px,0,0);
+			}
+			}
+
+		@-ms-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-1500px,0,0);
+				-webkit-transform: translate3d(-1500px,0,0);
+				-ms-transform: translate3d(-1500px,0,0);
+				transform: translate3d(-1500px,0,0);
+			}
+		}
+
+		@keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-1500px,0,0);
+				-webkit-transform: translate3d(-1500px,0,0);
+				-ms-transform: translate3d(-1500px,0,0);
+				transform: translate3d(-1500px,0,0);
+			}
+		}
+
+		/* Animación */
+			#bg {
+				background-size: 650px auto;
+				width: 4500px;
+			}
+			
+			#bg, #overlay, #titulo {
+				height: 575px;
+			}
+			
+		/* Menú navegación */
+		
+			.menu_bar {
+				display: none;
+			}
+		
+		/* Presentación */
+			#presentacion {
+				margin-top: 575px;
+				padding-bottom: 13%;
+				padding-top: 3%;
+			}
+
+			.textopresentacion {
+				width: 77%;
+				padding: 7% 0 0 3%;
+			}
+			
+			.textopresentacion h1 {
+				display: inline;
+			}
+
+		
+		/* Propiedades secciones */
+		
+			#conoceme {
+				padding-bottom: 15%;
+			}
+			
+			#explaboral {
+				padding-bottom: 10%;
+			}
+
+			#formacademica {
+				padding-bottom: 10%;
+			}
+			
+			#informatica {
+				padding-bottom: 13%;
+			}
+			
+			#disenoweb {
+				padding-bottom: 10%;
+			}
+			
+			#fotografia {
+				padding-bottom: 9%;
+			}
+		
+			#aficiones {
+				padding-bottom: 8%;
+			}
+			
+		/* Cajas y texto */
+
+			.imgsuperior {
+				top: -161px;
+			}
+			
+			#texto .izq{
+				padding-right: 26%;
+			}
+			
+			.estrecha{
+			}
+		
+			section>#articuloseccion>div.izq.estrecha>p{
+				width: 58%;
+			}
+			
+		/* Tamaños imágenes en secciones */
+		
+			div.foto {
+				position: absolute;
+				width: 400px;
+				height: 400px;
+				border-radius: 407px;
+				border: 6px solid rgba(0,0,0,.2);
+				text-align: center;
+			}
+			
+			div.fotomed {
+				position: absolute;
+				width: 350px;
+				height: 350px;
+				border-radius: 407px;
+				border: 6px solid rgba(0,0,0,.2);
+				text-align: center;
+			}
+			
+			div.fotopeq {
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 407px;
+				border: 6px solid rgba(0,0,0,.2);
+				text-align: center;
+			}
+
+			div.foto img, div.fotomed img, div.fotopeq img {
+				width: 100%;
+			}
+		
+		/* Imágenes secciones */
+		
+			.fotoavila {
+				top: 80px;
+				right: 20px;
+				background: transparent url('../img/fotoavila.jpg') no-repeat scroll center center;
+				z-index: 11;
+				background-color: #fff;
+			}
+		
+			.logoregistradores {
+				top: 120px;
+				right: 20px;
+				padding: 50px 15px 0 0;
+				z-index: 11;
+				background-color: #fff;
+			}
+		
+			.logousal {
+				top: 120px;
+				right: 20px;
+				z-index: 11;
+				background-color: #fff;
+			}
+		
+			.logoenusa {
+				top: 460px;
+				right: 20px;
+				z-index: 11;
+				background-color: #fff;
+			}
+			
+			.logoglobal {
+				top: 480px;
+				right: 210px;
+				z-index: 11;
+				background-color: #fff;
+				padding-bottom: 20px;
+			}
+		
+			.logojunta {
+				top: 630px;
+				right: 100px;
+				z-index: 10;
+				background-color: #fff;
+				padding: 35px 13px 0 13px;
+			}
+			
+			.logodioce {
+				top: 120px;
+				right: 40px;
+				z-index: 11;
+				background-color: #fff;
+			}
+			
+			.logossm {
+				top: 1920px;
+				right: 120px;
+				z-index: 11;
+				background-color: #000;
+				padding: 5px 10px 0 10px;
+			}
+		
+			.logoavila {
+				top: 2190px;
+				right: 120px;
+				z-index: 11;
+				padding: 30px;
+				background: #2312e2; /* Old browsers */
+				background: linear-gradient(135deg,  #2312e2 40%,#ff1616 60%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2312e2', endColorstr='#ff1616',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			}
+			
+			div.fotopeq.logoavila {
+				border: 0;
+				box-shadow: inset 0 0 0 6px rgba(0,0,0,.2);
+			}
+
+			.logofbavila{
+				position: absolute;
+				width: 92px;
+				height: 94px;
+				top: 2860px;
+				right: 260px;
+				background: transparent url('../img/facebookavila.png') no-repeat scroll center center;
+				z-index: 11;
+			}
+			
+			.logotwavila{
+				position: absolute;
+				width: 92px;
+				height: 94px;
+				top: 2860px;
+				right: 120px;
+				background: transparent url('../img/twitteravila.png') no-repeat scroll center center;
+				z-index: 11;
+			}
+			
+			.logoneurosport {
+				top: 3570px;
+				right: 120px;
+				z-index: 11;
+				background-color: #fff;
+				padding: 20px 0 0 0;
+				background-color: #0078ac;
+			}
+			
+			.logocanonistas {
+				top: 130px;
+				right: 70px;
+				z-index: 12;
+				background-color: #fff;
+				padding: 45px 40px 40px 40px;
+			}
+			
+			.logowitcamp {
+				top: 350px;
+				right: 250px;
+				z-index: 11;
+				background-color: #2b2b2b;
+				padding: 110px 60px 60px 60px;
+			}
+			
+			.logojuntass {
+				top: 1530px;
+				right: 130px;
+				z-index: 11;
+				padding: 20px;
+				background: #ff1414; /* Old browsers */
+				background: linear-gradient(to right,  #ff1414 19%,#ad1c0f 78%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1414', endColorstr='#ad1c0f',GradientType=1 ); /* IE6-9 */
+			}
+			
+			div.fotopeq.logojuntass {
+				border: 0;
+				box-shadow: inset 0 0 0 6px rgba(0,0,0,.2);
+			} 
+			
+			.logoseo {
+				top: 100px;
+				right: 30px;
+				z-index: 12;
+				background-color: #fff;
+				padding: 15px 50px 50px 50px;
+			}
+			
+			.logosacre {
+				top: 390px;
+				right: 230px;
+				z-index: 11;
+				background-color: #fff;
+				padding: 28px;
+			}		
+		
+		/* Listas */
+		
+			#informatica>#texto>.listado {
+				width: 85%;
+				padding-right: 0;
+			}
+			
+			#lista {
+				margin-left: 30px;
+			}
+			
+			#lista2>li>strong{
+				margin-right: 1em;
+				display: block;
+				width: 30%;
+				float: left;
+			}
+
+			#lista2>li>span{
+				margin-right: .3em;
+			}
+
+			#lista2>li>em{
+				margin-left: 30%;
+			}
+		
+		/* Galerías ShadowBox */
+			
+			.galeria figure{
+				display: inline-block;
+				width: 30%;
+				margin: .8em;
+				position: relative;
+			}
+			
+			.galeria .icoenlace #visitar{
+				margin-top: 20px;
+			}
+			
+			.galeria img.miniaturapeq{
+				width: 70%;
+			}
+			
+			.icoenlace.pr{
+				top: 40%;
+			}
+			
+			.icoenlace.raw, .icoenlace.tum {
+				top: 30%;
+			}
+			
+			.icoenlace.coleccion {
+				top: 30%;
+			}
+			
+			.galeria2 figure{
+				display: inline-block;
+				width: 20%;
+				margin: .8em;
+				position: relative;
+			}
+
+			.galeria2 .icoenlace #visitar{
+				margin-top: 20px;
+			}
+		
+		/* Ventana modal */
+		
+			.modal > div { 
+				width: 1200px;
+				/*height: 600px;*/
+			}
+		}
+	
+	@media only screen
+	  and (max-width: 1520px){
+		  
+		 div.foto, div.fotomed {
+			width: 330px;
+			height: 330px;
+		}
+		
+		div.fotopeq {
+			width: 150px;
+			height: 150px;
+		}
+		
+		#texto .izq {
+			padding-right: 0;
+		}
+		
+		#disenoweb>#texto>.listado {
+			width: 85%;
+		}
+		
+		#conoceme .izq.estrecha p:nth-child(1), #conoceme .izq.estrecha p:nth-child(2), #conoceme .izq.estrecha p:nth-child(3) {
+			padding-right: 27%;
+		}
+		
+		.fotoavila {
+			top: 60px;
+		}
+		
+		.logoenusa {
+			top: 420px;
+			right: 20px;
+		}
+		
+		.logoglobal {
+			top: 440px;
+			right: 160px;
+		}
+		
+		.logojunta {
+			top: 550px;
+			right: 75px;
+		}
+		
+		.logodioce {
+			top: 50px;
+			right: 30px;
+		}
+		
+		div.logossm {
+			width: 200px;
+			height: 200px;
+		}
+		
+		div.logoavila {
+			width: 200px;
+			height: 200px;
+		}
+		
+		div.logoneurosport {
+			width: 200px;
+			height: 200px;
+		}
+		
+		.logojuntass {
+			height: 200px !important;
+			width: 200px !important;
+			right: 30px;
+		}
+		
+		.logosacre {
+			right: 220px;
+		}
+		
+	}
+	
+	@media only screen
+	  and (max-width: 1482px){
+		
+		.textopresentacion {
+			width: 77%;
+			padding: 5% 0 0 3%;
+		}
+		
+		.textopresentacion h1 {
+				display: block;
+			}
+		
+		.logofbavila{
+			top: 2850px;
+			right: 260px;
+		}
+			
+		.logotwavila{
+			top: 2850px;
+			right: 120px;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 1344px){
+		
+		.textopresentacion {
+			width: 77%;
+			padding: 3% 0 0 3%;
+		}
+		
+		#encabezado {
+			padding-bottom: 5%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha>p {
+			width: 55%;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 1390px){
+		
+		div.logoneurosport {
+			top: 3520px;
+		}
+	}
+	
+	
+/* Normal */
+
+	@media only screen
+	  and (min-width: 1025px)
+	  and (max-width: 1280px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		/* BG */
+
+			@-moz-keyframes bg {
+				0% {
+					-moz-transform: translate3d(0,0,0);
+					-webkit-transform: translate3d(0,0,0);
+					-ms-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+
+				100% {
+					-moz-transform: translate3d(-750px,0,0);
+					-webkit-transform: translate3d(-750px,0,0);
+					-ms-transform: translate3d(-750px,0,0);
+					transform: translate3d(-750px,0,0);
+				}
+
+		}
+
+		@-webkit-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-750px,0,0);
+				-webkit-transform: translate3d(-750px,0,0);
+				-ms-transform: translate3d(-750px,0,0);
+				transform: translate3d(-750px,0,0);
+			}
+			}
+
+		@-ms-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-750px,0,0);
+				-webkit-transform: translate3d(-750px,0,0);
+				-ms-transform: translate3d(-750px,0,0);
+				transform: translate3d(-750px,0,0);
+			}
+		}
+
+		@keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-750px,0,0);
+				-webkit-transform: translate3d(-750px,0,0);
+				-ms-transform: translate3d(-750px,0,0);
+				transform: translate3d(-750px,0,0);
+			}
+		}
+
+		/* Animación */
+		
+			#bg {
+				background-size: 450px auto;
+				width: 2250px;
+			}
+			
+			#bg, #overlay, #titulo {
+				height: 450px;
+			}
+
+		/* Menú navegación */
+		
+			.menu_bar {
+				display: none;
+			}
+			
+		/* Presentación */
+		
+			#presentacion {
+				padding-top: 3%;
+				padding-bottom: 19%;
+				margin-top: 450px;
+			}
+
+			.textopresentacion {
+				width: 73%;
+				padding: 3% 0 0 3%;
+			}
+
+		/* Quién soy */
+		
+			#conoceme>#texto>.izq.estrecha {
+				padding: 0;
+				width: 100%;
+			}
+			
+			#conoceme .izq.estrecha p:nth-child(1), #conoceme .izq.estrecha p:nth-child(2) {
+				padding-right: 28%;
+			}
+		
+		/* Propiedades secciones */
+		
+			#encabezado {
+				padding-bottom: 0;
+			}
+			
+			#conoceme {
+				padding-bottom: 20%;
+			}
+			
+			#explaboral {
+				padding-bottom: 15%;
+			}		
+			
+			#formacademica {
+				padding-bottom: 15%;
+			}
+			
+			#informatica {
+				padding-bottom: 15%;
+			}
+			
+			#disenoweb {
+				padding-bottom: 15%;
+			}
+			
+			#fotografia {
+				padding-bottom: 12%;
+			}
+		
+			#aficiones {
+				padding-bottom: 5%;
+			}
+			
+		/* Cajas y textos */
+		
+			.imgsuperior {
+				top: -119px;
+			}
+			
+			.imgsuperior img {
+				height: 120px;
+			}
+			
+			#texto .izq {
+				padding-right: 33%;
+			}
+
+			#texto .centro{
+				padding-right: 2%;
+			}
+		
+			section>#articuloseccion>div.izq.estrecha>p {
+				width: 52%;
+			}
+
+			
+			section>#articuloseccion>div.izq.estrecha.resolbaja>p {
+				width: 83%;
+			}
+			
+			section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil>p {
+				width: 65%;
+			}
+			
+			section>#articuloseccion>.estrecha>p {
+				float: left;
+				margin-top: -7px;
+			}
+			
+		/* Tamaños imágenes en secciones */
+		
+			div.foto {
+				position: absolute;
+				width: 300px;
+				height: 300px;
+				border-radius: 407px;
+				border: 6px solid rgba(0,0,0,.2);
+				text-align: center;
+			}
+			
+			div.fotomed {
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 407px;
+				border: 6px solid rgba(0,0,0,.2);
+			}
+			
+			div.fotopeq {
+				position: absolute;
+				width: 150px;
+				height: 150px;
+				border-radius: 407px;
+				border: 6px solid rgba(0,0,0,.2);
+			}
+
+			div.foto img, div.fotomed img, div.fotopeq img {
+				width: 100%;
+			}
+		
+		/* Imágenes secciones */
+			.fotoavila {
+				top: 60px;
+				right: 17px;
+				background: transparent url('../img/fotoavila.jpg') no-repeat scroll center center;
+				z-index: 11;
+			}
+			
+			.logoregistradores {
+				top: 100px;
+				right: 20px;
+				z-index: 11;
+				background-color: #fff;
+				padding: 30px 10px 0 0;
+			}
+			
+			.logousal {
+				top: 90px;
+				right: 20px;
+				z-index: 11;
+				background-color: #fff;
+			}
+			
+			.logoenusa {
+				top: 370px;
+				right: 20px;
+				z-index: 11;
+				background-color: #fff;
+			}
+			
+			.logoglobal {
+				top: 390px;
+				right: 160px;
+				z-index: 11;
+				background-color: #fff;
+			}
+			
+			.logojunta {
+				top: 490px;
+				right: 70px;
+				z-index: 10;
+				background-color: #fff;
+				padding-top: 25px;
+			}
+			
+			.logodioce {
+				top: 80px;
+				right: 30px;
+				z-index: 11;
+				background-color: #fff;
+			}
+			
+			div.logodioce {
+				width: 300px;
+				height: 300px;
+			}
+		
+			.logossm {
+				top: 1840px;
+				right: 10px;
+				z-index: 11;
+				background-color: #000;
+			}
+			
+			.logoavila {
+				top: 2120px;
+				right: 10px;
+				z-index: 11;
+				background: #2312e2; /* Old browsers */
+				background: linear-gradient(135deg,  #2312e2 40%,#ff1616 60%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2312e2', endColorstr='#ff1616',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			}
+			
+			div.logossm {
+			width: 200px;
+			height: 200px;
+			}
+			
+			div.logoavila {
+				width: 200px;
+				height: 200px;
+			}
+			
+			div.fotopeq.logoavila {
+				border: 0;
+				box-shadow: inset 0 0 0 6px rgba(0,0,0,.2);
+			}
+			
+			.logofbavila{
+				position: absolute;
+				width: 92px;
+				height: 94px;
+				top: 2720px;
+				right: 210px;
+				background: transparent url('../img/facebookavila.png') no-repeat scroll center center;
+				z-index: 11;
+			}
+			
+			.logotwavila{
+				position: absolute;
+				width: 92px;
+				height: 94px;
+				top: 2720px;
+				right: 80px;
+				background: transparent url('../img/twitteravila.png') no-repeat scroll center center;
+				z-index: 11;
+			}
+			
+			div.logoneurosport {
+				top: 3400px;
+				right: 10px;
+				z-index: 11;
+				background-color: #fff;
+				padding: 15px 0 0 0;
+			}
+			
+			div.logoneurosport {
+				width: 200px;
+				height: 200px;
+			}
+			
+			.logocanonistas {
+				top: 110px;
+				right: 50px;
+				z-index: 12;
+				background-color: #fff;
+
+			}
+			
+			.logowitcamp {
+				top: 250px;
+				right: 150px;
+				z-index: 11;
+				background-color: #2b2b2b;
+				padding: 50px 20px 20px 20px;
+			}
+			
+			.logojuntass {
+				top: 1530px;
+				right: 30px;
+				height: 200px !important;
+				width: 200px !important;
+				z-index: 11;
+				background: #ff1414; /* Old browsers */
+				background: linear-gradient(to right,  #ff1414 19%,#ad1c0f 78%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1414', endColorstr='#ad1c0f',GradientType=1 ); /* IE6-9 */
+			}
+			
+			div.fotopeq.logojuntass {
+				border: 0;
+				box-shadow: inset 0 0 0 6px rgba(0,0,0,.2);
+			}
+			
+			.logoseo {
+				top: 110px;
+				right: 15px;
+				z-index: 12;
+				background-color: #fff;
+				padding: 10px 30px 30px 30px;
+			}
+			
+			.logosacre {
+				top: 280px;
+				right: 90px;
+				background-color: #fff;
+				z-index: 11;
+				padding: 20px;
+			}
+		
+		/* Listas */
+
+			#lista {
+				margin-left: 40px;
+			}
+			
+			#texto .izq.listado{
+				padding-right: 0;
+			}
+			
+			#lista2>li>strong{
+				margin-right: 1em;
+				display: block;
+				width: 35%;
+				float: left;
+			}
+
+			#lista2>li>span{
+				margin-right: .3em;
+			}
+
+			#lista2>li>em{
+				margin-left: 20%;
+			}
+		
+		
+		/* Galería */
+		
+			.galeria figure{
+				display: inline-block;
+				width: 30%;
+				margin: .8em;
+				position: relative;
+			}
+			
+			.galeria2 figure{
+				display: inline-block;
+				width: 24%;
+				margin: .1em;
+				position: relative;
+			}
+		
+		/* Ventana modal */
+		
+			.modal > div { 
+				width: 870px;
+				/*height: 500px;*/
+			}
+		}
+		
+	@media only screen
+	  and (max-width: 1215px){
+		
+		.textopresentacion {
+			width: 77%;
+			padding: 2% 0 0 3%;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 1202px){
+		.textopresentacion {
+			width: 77%;
+			padding: 1% 0 0 3%;
+		}
+	 }
+	  
+	@media only screen
+	  and (max-width: 1100px){	
+		
+		#conoceme .izq.estrecha p:nth-child(1), #conoceme .izq.estrecha p:nth-child(2) {
+			padding-right: 32%;
+		}
+		
+	@media only screen
+	  and (max-width: 1095px){	
+		
+		#conoceme .izq.estrecha p:nth-child(3) {
+			padding-right: 0;
+		}
+	}
+	
+
+/* Tablet (Landscape) */
+
+	@media only screen 
+	  and (min-width: 961px)
+	  and (max-width: 1024px) {
+	
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+		
+		/* BG */
+		
+			#bg {
+				background-size: 400px auto;
+				width: 2250px;
+			}
+		
+			#bg, #overlay, #titulo {
+				height: 425px;
+			}
+		
+		/* Presentación */
+		
+			#presentacion {
+				padding-bottom: 15%;
+				padding-top: 3%;
+				margin-top: 425px;
+			}
+
+			#presentacion .textopresentacion h1 {
+				font-size: 3.5em;
+				padding-right: 20%;
+			}
+		
+		/* Cajas y texto */	
+			
+			section>#articuloseccion>div.izq.estrecha>p {
+				width: 45%;
+			}
+			
+			section>#articuloseccion>div.izq.estrecha.resolbaja>p {
+				width: 83%;
+			}
+			
+			section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil>p {
+				width: 60%;
+			}
+			
+			section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil.ult>p {
+				width: 58%;
+			}
+			
+			section>#articuloseccion>div.izq.estrecha.resolmedia.ult>p {
+				width: 83%;
+			}
+			
+			#conoceme .izq.estrecha p:nth-child(1), #conoceme .izq.estrecha p:nth-child(2) {
+				padding-right: 37%;
+			}
+			
+			.izq.estrecha {
+			}
+		
+		/* Imágenes secciones */
+		
+			.imgsuperior {
+				top: -99px;
+			}
+			
+			.imgsuperior img {
+				height: 100px;
+			}
+			
+		/* Imágenes */
+		
+			.fotoavila {
+				top: 28px;
+			}
+			
+			.logoregistradores{
+				top: 115px;
+			}
+			
+			.logossm {
+				top: 1850px;
+				right: 20px;
+			}
+			
+			.logoavila {
+				top: 2130px;
+				right: 20px;
+			}
+			
+			.logofbavila {
+				top: 2730px;
+				right: 180px;
+			}
+			
+			.logotwavila {
+				top: 2730px;
+				right: 50px;
+			}
+			
+			div.logoneurosport {
+				top: 3400px;
+				right: 10px;
+			}
+			
+			div.logocanonistas {
+				top: 110px;
+				right: 50px;
+				z-index: 12;
+				width: 200px;
+				height: 200px;
+			}
+			
+			div.logowitcamp {
+				top: 250px;
+				right: 150px;
+				z-index: 11;
+				padding: 50px 20px 20px 20px;
+				width: 200px;
+				height: 200px;
+			}
+			
+			.logojuntass {
+				top: 1540px;
+				right: 30px;
+				height: 200px !important;
+				width: 200px !important;
+			}
+			
+			.logoseo {
+				top: 100px;
+				right: 30px;
+				padding: 10px 30px 30px 30px;
+				height: 200px !important;
+				width: 200px !important;
+			}
+			
+			.logosacre {
+				top: 250px;
+				right: 110px;
+			}
+			
+			
+		/* Listados */
+		
+			#informatica>#texto>.listado {
+				width: 100%;
+			}
+			
+			#disenoweb>#texto>.listado {
+				width: 100%;
+			}
+			
+		/* Formulario */
+	
+			#contacto {
+				width: 70%;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 3em;
+			}
+			
+		/* Ventana modal */
+		
+			.modal > div { 
+				width: 870px;
+			}
+	  }
+
+	/* Tablet (Portrait) */
+	
+	@media only screen 
+	  and (min-width: 641px)
+	  and (max-width: 960px) {
+		  
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+	
+		/* BG */
+			
+			#bg {
+				background-size: 400px auto;
+				width: 2250px;
+			}
+		
+			#bg, #overlay, #titulo {
+				height: 425px;
+			}
+		
+		/* Cargador */
+	
+		#loader section {
+			display:block;
+			width:200px; height:200px;
+			position: absolute;
+			top:30%;
+		}
+		
+		/* Presentación */
+		
+		#presentacion {
+			padding-bottom: 15%;
+				padding-top: 3%;
+				margin-top: 425px;
+		}
+				
+		#presentacion .textopresentacion h1 {
+			font-size: 2.8em;
+		}
+		
+	
+		/* Quién soy */
+		
+		#conoceme>#texto>.izq.estrecha {
+			padding: 0;
+			width: 100%;
+		}
+			
+		#conoceme>#texto>.izq.estrecha>p:nth-child(1) {
+			padding-right: 30%;
+			margin-bottom: 30px;
+		}
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(2) {
+			padding-right: 30%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.anchomovil>p {
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolbaja>p {
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia>p {
+			width: 50%;
+		}
+		
+		
+		/* Cajas y texto */
+
+		.imgsuperior {
+			top: -89px;
+		}
+			
+		.imgsuperior img {
+			height: 90px;
+		}
+		
+		section, #presentacion {
+			padding-left: 15px;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha>p {
+			width: 52%;
+		}
+		
+		section>#articuloseccion>div.estrecha.resolbaja>p {
+			width: 73%;
+		}
+		
+		section>#articuloseccion>div.estrecha.anchomovil>p {
+			width: 73%;
+		}
+		
+		#fotografia>#articuloseccion>div.izq.estrecha.resolmedia.prem>p {
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil>p {
+			width: 58%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil.ult>p {
+			width: 52%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.ult>p {
+			width: 55%;
+		}
+		
+		#texto .izq {
+			padding-right: 0;
+		}
+	
+		/* Listas */
+		
+			#informatica>#texto>.listado {
+				width: 100%;
+			}
+			
+			#disenoweb>#texto>.listado {
+				width: 100%;
+			}
+			
+			#lista {
+				margin-left: 20px;
+			}
+			
+			#texto .izq.listado{
+				padding: 0;
+			}
+						
+			#lista2>li>strong{
+				margin-right: 0.1em;
+				margin-right: .8em;
+				width: 50%;
+			}
+
+			#lista2>li>span{
+				margin-right: 0;
+			}
+
+			#lista2>li>em{
+				margin-left: 10%;
+			}
+			
+			#lista2 li {
+				padding-left: 20px;
+			}
+	
+		/* Imágenes secciones */
+			
+			.galeria2.cms figure {
+				width: 100px;
+			}
+			.foto, .fotopeq, .fotomed, .logofbavila, .logotwavila, .logodioce {
+				width: 250px !important;
+				height: 250px !important;
+			}
+			
+			.fotoavila {
+				top: 100px;
+				right: 10px;
+			}
+			
+			.logoregistradores {
+				top: 90px;
+				right: 10px;
+			}
+			
+			.logousal {
+				top: 90px;
+				right: 10px;
+			}
+			
+			.logoenusa {
+				width: 100px !important;
+				height: 100px !important;
+				top: 300px;
+				right: 140px;
+			}
+				
+			.logoglobal {
+				width: 100px !important;
+				height: 100px !important;
+				top: 310px;
+				right: 25px;
+			}
+				
+			.logojunta {
+				width: 100px !important;
+				height: 100px !important;
+				top: 370px;
+				right: 90px;
+				padding-top: 23px;
+			}
+			
+			.logodioce {
+				top: 100px;
+				right: 10px;
+			}
+			
+			.logossm {
+				width: 200px !important;
+				height: 200px !important;
+				top: 1720px;
+				right: 10px;
+			}
+				
+			.logoavila {
+				width: 200px !important;
+				height: 200px !important;
+				top: 2010px;
+				right: 10px;
+			}
+			
+			.logofbavila{
+				display: none;
+			}
+				
+			.logotwavila{
+				display: none;
+			}
+			
+			div.logoneurosport {
+				width: 200px !important;
+				height: 200px !important;
+				top: 3120px;
+				right: 10px;
+			}
+			
+			.logocanonistas {
+				top: 60px;
+				right: 10px;
+			}
+				
+			.logowitcamp {
+				width: 200px !important;
+				height: 200px !important;
+				top: 280px;
+				right: 20px;
+				z-index: 12;
+				padding: 50px 25px 25px 25px;
+			}
+			
+			.logojuntass {
+				width: 150px !important;
+				height: 150px !important;
+				top: 1470px;
+				right: 30px;
+			}
+			
+			.logoseo {
+				width: 200px !important;
+				height: 200px !important;
+				top: 90px;
+				right: 10px;
+				padding: 30px 40px;
+			}
+			
+			.logosacre {
+				width: 200px !important;
+				height: 200px !important;
+				top: 290px;
+				right: 10px;
+				padding: 30px;
+			}
+			
+		/* Galería */
+			
+			.icoenlace.raw {
+				top: 20%;
+			}
+			
+			.galeria, .galeria2 {
+				margin-top: 30px;
+			}
+		
+			.galeria figure {
+				display: inline-block;
+				width: 31%;
+				margin: .2em;
+				position: relative;
+			}
+			
+			.galeria2 figure {
+				width: 45%;
+			}
+			
+			.galeria2 a {
+				border: 0;
+			}
+			
+			.icoenlace.pr{
+				top: 30%;
+			}
+			
+			.icoenlace.coleccion {
+				top: 20%;
+			}
+
+		/* Formulario */
+	
+			#contacto {
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 3em;
+			}
+			
+		/* Pie de página */
+
+			#copyright li {
+				margin: 0 5px 15px 0;
+				font-size: 0.8em;
+			}
+		
+		/* Ventana modal */
+		
+			.modal > div { 
+				width: 650px;
+				/*height: 750px;
+				margin-top: 30px;*/
+			}
+	}
+	
+	@media only screen
+	  and (max-width: 860px){
+		
+		div.logoneurosport {
+			top: 3100px;
+		}
+		
+		.logoavila {
+			top: 2025px;
+		}
+	
+	@media only screen
+	  and (max-width: 880px){
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(1) {
+			padding-right: 33%;
+			margin-bottom: 30px;
+		}
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(2) {
+			padding-right: 33%;
+		}
+		
+		section>#articuloseccion>div.estrecha>p {
+			width: 45%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha>p {
+			width: 52%;
+		}
+		
+		section>#articuloseccion>div.estrecha.anchomovil>p {
+			width: 83%;
+		}
+		
+		.logodioce {
+			top: 110px;
+			right: 10px;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 850px){
+		
+		#cabecera h1{
+			font-size: 3.5em;
+		}
+		
+		.logossm {
+			top: 1750px;
+			right: 10px;
+		}
+				
+		.logoavila {
+			top: 2040px;
+			right: 10px;
+			}
+			
+		div.logoneurosport {
+			top: 3150px;
+		}
+			
+	@media only screen
+	  and (max-width: 837px){
+		
+		div.logossm {
+			width: 150px !important;
+			height: 150px !important;
+			top: 1800px;
+		}
+				
+		div.logoavila {
+			width: 150px !important;
+			height: 150px !important;
+			top: 2120px;
+		}
+		
+		div.logoneurosport {
+			width: 150px !important;
+			height: 150px !important;
+			top: 3230px;
+		}
+		
+	@media only screen
+	  and (max-width: 830px){
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(1) {
+			padding-right: 39%;
+			margin-bottom: 30px;
+		}
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(2) {
+			padding-right: 39%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha>p {
+			width: 48%;
+		}
+		
+		section>#articuloseccion>div.estrecha.anchomovil>p {
+			width: 83%;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 790px){
+		
+		div.logoneurosport {
+			top: 3270px;
+		}
+	
+	@media only screen
+	  and (max-width: 780px){
+		
+		section>#articuloseccion>div.izq.estrecha>p {
+				width: 46%;
+			}
+		section>#articuloseccion>div.estrecha.anchomovil>p {
+			width: 83%;
+		}
+		
+		.logodioce {
+			top: 140px;
+			right: 10px;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia>p {
+			width: 45%;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 730px){
+		
+		section>#articuloseccion>div.izq.estrecha>p {
+			width: 43%;
+		}
+		
+		section>#articuloseccion>div.estrecha.anchomovil>p {
+			width: 83%;
+		}
+		
+		div.logossm {
+			top: 1800px;
+		}
+				
+		div.logoavila {
+			top: 2140px;
+		}
+	}
+	
+/* Mobile (Landscape) */
+
+	@media only screen 
+	  and (min-width: 481px)
+	  and (max-width: 690px) {
+
+		/* Basic */
+
+			body {
+				min-width: 320px;
+			}
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		/* BG */
+
+			@-moz-keyframes bg {
+				0% {
+					-moz-transform: translate3d(0,0,0);
+					-webkit-transform: translate3d(0,0,0);
+					-ms-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+
+				100% {
+					-moz-transform: translate3d(-300px,0,0);
+					-webkit-transform: translate3d(-300px,0,0);
+					-ms-transform: translate3d(-300px,0,0);
+					transform: translate3d(-300px,0,0);
+				}
+	}
+
+		@-webkit-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-300px,0,0);
+				-webkit-transform: translate3d(-300px,0,0);
+				-ms-transform: translate3d(-300px,0,0);
+				transform: translate3d(-300px,0,0);
+			}
+			}
+
+		@-ms-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-300px,0,0);
+				-webkit-transform: translate3d(-300px,0,0);
+				-ms-transform: translate3d(-300px,0,0);
+				transform: translate3d(-300px,0,0);
+			}
+		}
+
+		@keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-300px,0,0);
+				-webkit-transform: translate3d(-300px,0,0);
+				-ms-transform: translate3d(-300px,0,0);
+				transform: translate3d(-300px,0,0);
+			}
+		}
+
+		/* Cargador */
+	
+		#loader section {
+			display:block;
+			width:200px; height:200px;
+			position: absolute;
+			left:38%; top:20%;
+		}
+		
+		/* Header */
+			
+			#bg {
+				background-size: 300px auto;
+				width: 900px;
+			}
+			
+			#bg, #overlay, #titulo {
+				height: 225px;
+			}
+			
+			#cabecera {
+				margin-top: 20px;
+			}
+			
+			#cabecera h1 {
+				font-size: 3.5em;
+			}
+
+			#cabecera p {
+				font-size: 1em;
+			}
+
+			#cabecera nav {
+				font-size: 1em;
+			}
+
+			#cabecera nav a:hover {
+				font-size: 1em;
+			}
+
+			#cabecera nav a:active {
+				font-size: 1em;
+			} 
+	
+	/* Presentación */
+		
+		#presentacion {
+			padding-bottom: 15%;
+			margin-top: 225px;
+			padding-top: 3%;
+		}
+		
+		#presentacion .textopresentacion h1 {
+			font-size: 2.5em;
+			
+		}
+		
+	/* Quién soy */
+		
+		#conoceme>#texto>.izq.estrecha {
+			padding: 0;
+			width: 100%;
+		}
+			
+		#conoceme>#texto>.izq.estrecha>p:nth-child(1) {
+			padding-right: 33%;
+			margin-bottom: 30px;
+		}
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(2) {
+			padding-right:0;
+		}
+	
+	/* Cajas y texto */
+
+		.imgsuperior {
+			position: absolute;
+			top: -65px;
+			width: 100%;
+			text-align: center;
+		}
+		
+		body>main>section>header>hr {
+				margin: 10px 0 30px 0;
+			}
+			
+		section>#articuloseccion>div.izq.estrecha>p {
+			width: 48%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.anchomovil>p{
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolbaja>p{
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia>p {
+			width: 51%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil>p {
+			width: 55%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.ult>p {
+			width: 50%;
+		}
+		
+		.izq.estrecha.anchomovil, .izq.estrecha.resolmedia, .izq.estrecha.resolbaja {
+			padding: 0;
+		}
+		
+		#texto .izq.centro {
+			padding: 0%;
+		}
+		
+		section>h2.first {
+			width: 100%;
+			margin: 50px auto 30px 20px;
+			line-height: 1.1em;
+		}
+		
+		section>h2 {
+			width: 100%;
+			margin: 90px auto 30px 20px;
+			line-height: 1.1em;
+		}
+		
+	/* Imágenes secciones */
+		
+		.imgsuperior {
+			top: -59px;
+		}
+			
+		.imgsuperior img {
+			height: 60px;
+		}
+	
+	/* Detalles secciones */
+
+			body>main>section#conoceme>header>p>span {
+				padding: 16px 0 0 17px;
+			}
+			
+			body>main>section#explaboral>header>p>span {
+				padding: 18px 0 0 14px;
+			}
+			
+			body>main>section#formacademica>header>p>span {
+				padding: 19px 0 0 12px;
+			}
+			
+			body>main>section#informatica>header>p>span {
+				padding: 22px 0 0 14px;
+			}
+			
+			body>main>section#disenoweb>header>p>span {
+				padding: 18px 0 0 11px;
+			}
+			
+			body>main>section#fotografia>header>p>span {
+				padding: 19px 0 0 14px;
+			}
+			
+			body>main>section#aficiones>header>p>span {
+				padding: 19px 0 0 14px;
+			}
+	
+	/* Imágenes secciones */
+	
+		.foto, .fotopeq, .fotomed, .logofbavila, .logotwavila {
+			width: 175px !important;
+			height: 175px !important;
+		}
+		
+		.fotoavila {
+			top: 30px;
+			right: 15px;
+		}
+			
+		.logoregistradores {
+			top: 90px;
+			right: 10px;
+			padding-top: 30px;
+		}
+			
+		.logousal {
+			top: 90px;
+			right: 10px;
+		}
+			
+		.logoenusa {
+			display: none;
+		}
+			
+		.logoglobal {
+			display: none;
+		}
+			
+		.logojunta {
+			display: none;
+		}
+			
+		.logodioce {
+			top: 120px;
+			right: 10px;
+		}
+		
+		div.logossm {
+			top: 1830px;
+			right: 10px;
+		}
+			
+		div.logoavila {
+			top: 2180px;
+			right: 10px;
+		}
+			
+		.logofbavila{
+			display: none;
+		}
+			
+		.logotwavila{
+			display: none;
+		}
+			
+		div.logoneurosport {
+			top: 3300px;
+			right: 10px;
+		}
+			
+		.logocanonistas {
+			top: 60px;
+			right: 10px;
+		}
+			
+		.logowitcamp {
+			top: 260px;
+			right: 10px;
+			z-index: 12;
+			padding: 45px 25px 25px 25px;
+		}
+			
+		.logojuntass {
+			top: 1500px;
+			right: 10px;
+		}
+			
+		.logoseo {
+			top: 80px;
+			right: 10px;
+			padding: 10px 25px 25px 25px;
+		}
+			
+		.logosacre {
+			top: 360px;
+			right: 10px;
+			padding: 25px;
+		}
+		
+		/* Listas */
+		
+			#informatica>#texto>.listado {
+				width: 100%;
+			}
+			
+			#disenoweb>#texto>.listado {
+				width: 100%;
+			}
+			
+			#lista {
+				margin-left: 10px;
+			}
+			
+			#texto .izq.listado{
+				padding: 0;
+			}
+						
+			#lista2>li>strong{
+				margin-right: 1em;
+				width: 100%;
+			}
+
+			#lista2>li>span{
+				margin-right: 0;
+			}
+
+			#lista2>li>em{
+				margin-left: 50%;
+			}
+			
+			#lista2 li {
+				padding-left: 20px;
+			}
+			
+		/* Galería */
+		
+			.icoenlace.pr {
+				top: 20%;
+			}
+			
+			.icoenlace.coleccion {
+				top: 10%;
+			}
+			
+			.icoenlace.raw {
+				top: 15%;
+			}
+			
+			.galeria, .galeria2 {
+				margin-top: 30px;
+			}
+		
+			.galeria figure {
+				display: inline-block;
+				width: 30%;
+				margin: .5em;
+				position: relative;
+			}
+			
+			.galeria2 figure {
+				width: 45%;
+			}
+			
+			.galeria2.cms figure {
+				width: 80px;
+			}
+			
+			.galeria2 a {
+				border: 0;
+			}
+			
+		/* Formulario */
+	
+			#contacto {
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 3em;
+			}
+			
+			#contacto h2 {
+				line-height: 1em;
+			}
+			
+			#contacto header {
+				margin: 0 0 2em 0;
+			}
+			
+			.row {
+					margin: -5px 0 -1px -10px;
+			}
+			
+			.row > * {
+				padding: 10px 0 0 10px;
+			}
+	
+			form input[type="button"], form input[type="submit"], form input[type="reset"], form button, form .button {
+			margin-top: 20px;
+			padding: 1em;
+			font-size: 1.2em;
+			font-weight: 700;
+			}	
+		
+		/* Pie de página */
+
+			#copyright li {
+				margin: 0 5px 15px 0;
+				font-size: 0.8em;
+			}
+		
+		/* Ventana modal */
+		
+			.modal > div { 
+				width: 450px;
+				/*height: 290px;
+				margin-top: 20px*/;
+			}
+	}
+	
+	@media only screen
+	  and (max-width: 588px){
+		div.logoneurosport {
+			top: 5050px;
+			right: 10px;
+		}
+		
+		.icoenlace.raw {
+			top: 10%;
+		}
+		
+		.icoenlace.raw #visitar{
+			margin-top: 7px;
+		}
+	  }
+	
+	@media only screen
+	  and (max-width: 585px){
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(1) {
+			padding-right: 41%;
+			margin-bottom: 30px;
+		}
+		
+		.fotoavila {
+			right: 5px;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 554px){
+		
+		#cabecera h1{
+			font-size: 3em;
+		}
+		
+		#cabecera a {
+			font-size: 0.9em;
+		}
+		
+		#cabecera nav li {
+			width: 4.5em;
+		}
+		
+		.foto, .fotomed, .fotopeq {
+			display: none;
+		}
+		
+		.fotoavila {
+			display: block;
+		}
+		
+		section>#articuloseccion>div.estrecha.izq>p {
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia>p {
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil>p {
+			width: 83%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.ult>p {
+			width: 83%;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 561px){
+		
+		/* Galería */
+		
+			.galeria, .galeria2 {
+				margin-top: 30px;
+			}
+		
+			.galeria figure {
+				display: inline-block;
+				width: 90%;
+				margin: .8em;
+				position: relative;
+			}
+			
+			.galeria2 figure {
+				width: 45%;
+				margin: 0.3em;
+			}
+			
+			.galeria2 a {
+				border: 0;
+			}
+			
+			.icoenlace.pr {
+				top: 40%;
+			}
+			
+			.icoenlace.coleccion {
+				top: 30%;
+			}
+			
+			.icoenlace.raw #visitar{
+				margin-top: 20px;
+			}
+			
+			.icoenlace.raw {
+				top: 40%;
+			}
+	}
+	
+/* Mobile (Portrait) */
+
+	@media only screen and (max-width: 480px) {
+
+		/* BG */
+
+			@-moz-keyframes bg {
+				0% {
+					-moz-transform: translate3d(0,0,0);
+					-webkit-transform: translate3d(0,0,0);
+					-ms-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+
+				100% {
+					-moz-transform: translate3d(-412.5px,0,0);
+					-webkit-transform: translate3d(-412.5px,0,0);
+					-ms-transform: translate3d(-412.5px,0,0);
+					transform: translate3d(-412.5px,0,0);
+				}
+
+			}
+
+		@-webkit-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-412.5px,0,0);
+				-webkit-transform: translate3d(-412.5px,0,0);
+				-ms-transform: translate3d(-412.5px,0,0);
+				transform: translate3d(-412.5px,0,0);
+			}
+		}
+
+		@-ms-keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-412.5px,0,0);
+				-webkit-transform: translate3d(-412.5px,0,0);
+				-ms-transform: translate3d(-412.5px,0,0);
+				transform: translate3d(-412.5px,0,0);
+			}
+		}
+
+		@keyframes bg {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-412.5px,0,0);
+				-webkit-transform: translate3d(-412.5px,0,0);
+				-ms-transform: translate3d(-412.5px,0,0);
+				transform: translate3d(-412.5px,0,0);
+			}
+		}
+
+	/* Cargador */
+	
+		#loader section {
+			display:block;
+			width:200px; height:200px;
+			position: absolute;
+			left:25%; top:30%;
+		}
+
+	
+	/* Header */
+	
+		#bg {
+			background-size: 412.5px auto;
+			width: 1237.5px;
+		}
+		
+		#bg, #overlay, #titulo {
+			height: 400px;
+		}
+		
+				
+		#cabecera {
+			margin-top: 25px;
+		}
+		
+		#cabecera nav {
+			padding: 0 1em;
+		}
+		
+		#cabecera h1 {
+			font-size: 2.5em;
+		}
+		
+		#cabecera p {
+			font-size: 1em;
+		}
+		
+		#cabecera nav {
+			font-size: 1em;
+		}
+		
+		#cabecera a {
+			font-size: 0.9em;
+		}
+		
+		#cabecera nav li {
+			width: 4.5em;
+		}
+
+		
+	/* Presentación */
+	
+		#presentacion {
+			padding-top: 3%;
+			margin-top: 400px;
+			padding-bottom: 13%;
+		}
+		
+		.containerimg {
+			width: 100%;
+			margin: 15px 0;
+		}
+		
+		.imagenperfil img {
+			width: 70%;
+			margin: 0 auto;
+		}
+		
+		.textopresentacion {
+			width: 100%;
+			padding: 0 0 0 0;
+			text-align: center;
+		}
+		
+		#presentacion .textopresentacion h1 {
+			font-size: 2.2em;
+			line-height: 1.1em;
+		}
+		
+	/* Quién soy */
+		
+		#conoceme>#texto>.izq.estrecha>p:nth-child(1), #conoceme>#texto>.izq.estrecha>p:nth-child(2) {
+			padding-right: 0;
+			
+		}
+		
+		
+	/* Cajas y texto */
+
+		.imgsuperior {
+			position: absolute;
+			top: -39px;
+			width: 100%;
+			text-align: center;
+		}
+			
+		body>main>section>header>hr {
+			margin: 10px 0 30px 0;
+			width: 100%;
+		}
+			
+		#texto .izq, #texto .estrecha, .izq.estrecha, .izq.estrecha.resolmedia {
+			padding: 0;
+		}
+			
+		section>#articuloseccion {
+			margin-bottom: 34px;
+		}
+			
+		section>#articuloseccion>div.estrecha>p, section>#articuloseccion>div.izq>p, section>#articuloseccion>div.resolmedia>p, section>#articuloseccion>div.izq.estrecha>p {
+			width: 100%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia>p {
+			width: 100%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.estrechomovil>p {
+			width: 100%;
+		}
+		
+		section>#articuloseccion>div.izq.estrecha.resolmedia.ult>p {
+			width: 100%;
+		}
+		
+		body>main>section>header>h2>span {
+			font-size: 1.9em;
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		body>main>#informatica>header>h2>span {
+			font-size: 1.7em;
+		}		
+				
+		section>#articuloseccion>div>h2>strong {
+			margin-bottom: 15px;
+		}
+			
+		section>#articuloseccion>div>h2>span {
+			display: none;
+		}
+			
+		section>h2.first {
+			width: 100%;
+			margin: 50px 5px 30px 20px;
+			line-height: 1.1em;
+		}
+			
+		section>h2 {
+			width: 95%;
+			margin: 90px 5px 30px 20px;
+			line-height: 1.1em;
+		}
+			
+		#disenoweb>#articuloseccion>.enlace>a.ssm, #fotografia>#articuloseccion>.izq>.enlace>a.tmlbr {
+			font-size: 1.1em;
+			height: 46px;
+		}
+		
+	
+	/* Imágenes secciones */
+	
+		.imgsuperior {
+			top: -44px;
+		}
+			
+		.imgsuperior img {
+			height: 45px;
+		}
+			
+	/* Detalles secciones */
+
+			
+		body>main>section#conoceme>header>p>span {
+			padding: 16px 0 0 15px;
+		}
+			
+		body>main>section#explaboral>header>p>span {
+			padding: 16px 0 0 11px;
+		}
+			
+		body>main>section#formacademica>header>p>span {
+			padding: 19px 0 0 8px;
+		}
+			
+		body>main>section#informatica>header>p>span {
+			padding: 21px 0 0 10px;
+		}
+			
+		body>main>section#disenoweb>header>p>span {
+			padding: 17px 0 0 8px;
+		}
+			
+		body>main>section#fotografia>header>p>span {
+			padding: 18px 0 0 12px;
+		}
+			
+		body>main>section#aficiones>header>p>span {
+			padding: 16px 0 0 12px;
+		}
+	
+	/* Imágenes secciones */
+			
+		.foto, .fotopeq, .fotomed, .logofbavila, .logotwavila {
+			display: none;
+		}
+			
+	/* Imagen enlaces */
+		
+		#fotografia span.iconoenlace {
+			right: -17px;
+		}
+			
+	/* Listas */
+		
+		#informatica>#texto>.listado {
+			width: 100%;
+		}
+		
+		#disenoweb>#texto>.listado {
+			width: 100%;
+		}
+		
+		#lista {
+			margin-left: 10px;
+		}
+			
+		#texto .izq.listado{
+			padding: 0;
+		}
+						
+		#lista2>li>strong{
+			margin-right: 1em;
+			display: block;
+			width: 100%;
+			float: left;
+		}
+
+		#lista2>li>span{
+			margin-right: 0;
+		}
+
+		#lista2>li>em{
+			margin-left: 28%;
+		}
+			
+		#lista2 li {
+			padding-left: 20px;
+		}
+			
+		.icoenlace.raw {
+			top: 30%;
+		}
+		
+		.galeria img.miniaturapeq{
+			width: 60%;
+		}
+			
+		.galeria2 figure{
+			display: inline-block;
+			width: 93%;
+			margin: .8em;
+			position: relative;
+		}
+		
+		.galeria2.cms figure{
+			width: 50px;
+		}
+
+		
+	/* Formulario */
+	
+		#contacto {
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 3em;
+		}
+			
+		#contacto h2 {
+			line-height: 1em;
+		}
+			
+		#contacto header {
+			margin: 0 0 2em 0;
+		}
+			
+		.row {
+			margin: -5px 0 -1px -10px;
+		}
+		
+		.row > * {
+			padding: 10px 0 0 10px;
+		}
+	
+		form input[type="button"], form input[type="submit"], form input[type="reset"], form button, form .button {
+			margin-top: 20px;
+			padding: 1em;
+			font-size: 1.2em;
+			font-weight: 700;
+		}
+			
+		form input[type="checkbox"] {
+			margin-left: 15px;
+		}
+		
+		/* Pie de página */
+
+			#copyright li {
+				display: inline-block;
+				border: 0;
+				box-shadow: none;
+				margin: 0 0 15px 0;
+			}
+	
+		/* Ventana modal */
+		
+			.modal > div { 
+				width: 280px;
+				/*height: 500px;*/
+			}
+			
+		/* Propiedades secciones */
+			
+			#encabezado {
+				padding-bottom: 20px;
+			}
+			
+			#conoceme {
+				padding-bottom: 40px;
+			}
+	
+			#explaboral {
+				padding-bottom: 30px;
+			}		
+			
+			#formacademica {
+				padding-bottom: 30px;
+			}
+			
+			#informatica {
+				padding-bottom: 30px;
+			}
+			
+			#disenoweb {
+				padding-bottom: 30px;
+			}
+			
+			#fotografia {
+				padding-bottom: 30px;
+			}
+		
+			#aficiones {
+				
+			}
+			
+			#formulario {
+				padding-bottom: 25px;
+			}
+		}
+	
+	@media only screen
+	  and (max-width: 388px){
+		.iconoenlace {
+			display: none;
+		}  
+	}
+	
+	@media only screen
+	  and (max-width: 363px){
+		/* Formulario */
+			form input[type="checkbox"] {
+			margin-left: 5px;
+			margin-right: 2px;
+		}
+		
+		form .letras label {
+			padding: 11px 0 0 10px;
+		}
+		form .letras {
+			font-size: 0.8em;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 355px){
+		
+		#presentacion .textopresentacion h1 {
+			font-size: 1.7em;
+			line-height: 1em;
+		}
+		
+		.imgsuperior {
+			top: -34px;
+		}
+			
+		.imgsuperior img {
+			height: 35px;
+		}
+		
+		#lista2>li>em{
+			display: block;
+			margin: 0;
+		}
+	}
+	
+	@media only screen
+	  and (max-width: 336px){
+		
+			.galeria img.miniaturapeq{
+				width: 60%;
+			}
+	}
+	
+	@media only screen
+	  and (max-width: 324px){
+		
+		#cabecera h1 {
+			font-size: 2em;
+		}
+		
+		#cabecera a {
+			font-size: 0.8em;
+		}
+		
+		#cabecera nav li {
+			width: 4em;
+		}
+	}
