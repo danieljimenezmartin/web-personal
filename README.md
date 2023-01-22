@@ -9,6 +9,7 @@ Esta es mi página web personal creada con HTML5, CSS3, y JavaScript. La web ha 
 * [Portfolio web](https://www.danieljimenezmartin.com)
 
 ## Ver ejemplo en vivo ⚡
+- [https://danieljimenezmartin.github.io/web-personal/](https://danieljimenezmartin.github.io/web-personal/)
 
 ## Instalación 🎯
 Este proyecto no necesita instalación. Simplemente abre la carpeta o haz doble clic en el archivo index.html
