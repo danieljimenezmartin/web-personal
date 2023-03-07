@@ -5,7 +5,7 @@ Esta es mi página web personal creada con HTML5, CSS3, y JavaScript. La web ha 
 ## Autor 👨🏽‍💻
 **Daniel Jiménez Martín**
 
-* [LinkedIn](https://www.linkedin.com/in/danieljimenezmartin)
+* [LinkedIn](https://www.linkedin.com/in/dany-jimenez/)
 * [Portfolio web](https://www.danieljimenezmartin.com)
 
 ## Ver ejemplo en vivo ⚡
