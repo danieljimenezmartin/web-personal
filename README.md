@@ -6,10 +6,10 @@ Esta es mi página web personal creada con HTML5, CSS3, y JavaScript. La web ha 
 **Daniel Jiménez Martín**
 
 * [LinkedIn](https://www.linkedin.com/in/dany-jimenez/)
-* [Portfolio web](https://www.danieljimenezmartin.com)
+* [Portfolio web](https://www.danyjimenez.com)
 
 ## Ver ejemplo en vivo ⚡
-- [http://danieljimenezmartin.com/](http://danieljimenezmartin.com/)
+- [https://danieljimenezmartin.com/](https://danieljimenezmartin.com/)
 
 ## Instalación 🎯
 Este proyecto no necesita instalación. Simplemente abre la carpeta o haz doble clic en el archivo index.html
